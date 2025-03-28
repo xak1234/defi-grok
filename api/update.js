@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 
 # GitHub storage
-GH_REPO = "xak1234/def-grok"  # Updated repo name
+GH_REPO = "xak1234/defi-grok"  # Updated repo name
 GH_FILE = "vault-data/state.json"
 GH_TOKEN = os.getenv("GH_TOKEN")  # Set this in Lambda environment variables
 HEADERS = {
